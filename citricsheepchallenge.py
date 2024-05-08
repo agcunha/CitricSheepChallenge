@@ -11,5 +11,4 @@ sum_result = sum(ascii_values)
 # Generate the SHA256 hash of the sum
 sum_hash = hashlib.sha256(str(sum_result).encode()).hexdigest()
 
-# Print the hexadecimal string result
 print("HexResult:", sum_hash)
